@@ -67,3 +67,13 @@ Khi k = số lượng phần tử trong tập training ban đầu (mỗi tập v
 Nhược điểm của cross-calidation là số lượng mô hình sẽ tỉ lệ thuận với k. Có một số trường hợp, việc huấn luyện nhiều mô hình khó khả thi. 
 
 Có một kỹ thuật tránh quá khớp khác giúp giảm số mô hình cần huấn luyện có tên là cơ chế kiểm soát (regularization).
+
+
+---
+(note)
+
+Khi thiết kế một hệ thống dựa trên dữ liệu, cần chú ý:
+- lựa chọn tập dữ liệu, để mô hình hoạt động tốt, thì dữ liệu phải chứa nhiều đặc trưng của không gian dữ liệu
+- xác định loại của hàm, đối với bài toán này, đầu ra của chúng sẽ như thế nào
+- lựa chọn mô hình nào
+- chọn thuận toán đễ huấn luyện 
